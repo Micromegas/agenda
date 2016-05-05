@@ -5,7 +5,7 @@ import javax.swing.JOptionPane;
 
 public class mysql{
     private static String user="root";
-    private static String pass="";
+    private static String pass="21579097";
     private static String db="agenda";
     private static Connection Conn;
     public static Connection getConnect(){

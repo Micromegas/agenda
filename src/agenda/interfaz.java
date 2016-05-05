@@ -427,7 +427,7 @@ public class interfaz extends javax.swing.JFrame {
     private void bGuardarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bGuardarActionPerformed
         // TODO add your handling code here:
         try {
-        String SQL = "INSERT INTO contactos(Nombre, Apellidos, Cargo, JefeInmediato, Direccion, Telefono, Correo)" 
+        String SQL = "INSERT INTO contactos(Nombre, Apellido, Cargo, JefeInmediato, Direccion, Telefono, Correo)" 
                 + "VALUES (?,?,?,?,?,?,?)";
         
             PreparedStatement pst = conn.prepareStatement(SQL);
